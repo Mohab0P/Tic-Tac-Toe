@@ -20,7 +20,7 @@ Tic Tac Toe is a classic game where two players take turns marking spaces in a 3
 
 
 ## Getting Started
-To play the game, simply download  the repositories and open the `index.html` file in your web browser. You can also access the live demo [here](#https://mohab0p.github.io/Tic-Tac-Toe/).
+To play the game, simply download  the repositories and open the `index.html` file in your web browser. You can also access the live demo [here](https://mohab0p.github.io/Tic-Tac-Toe/).
 
 ## Algorithm
 The AI opponent in this game utilizes the minimax algorithm to determine the best possible move. The minimax algorithm is a decision-making algorithm used in two-player games to minimize the possible loss for a worst-case scenario. It works by recursively evaluating the possible outcomes of each move and selecting the move that leads to the best result for the player.
@@ -28,5 +28,4 @@ The AI opponent in this game utilizes the minimax algorithm to determine the bes
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
