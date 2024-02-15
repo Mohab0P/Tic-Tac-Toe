@@ -25,34 +25,42 @@
           <div class="col"> A.I </div>
           <div class="col">TIE</div>
           <div class="row align-items-center">
-            <div class="col">0</div>
-            <div class="col">0</div>
-            <div class="col">0</div>
+            <div class="you col">0</div>
+            <div class="ai col">0</div>
+            <div class="tie col">0</div>
         </div>
       </div>
+<div class="turn">
+    <h5>Turn for:</h5>
+<div class="turnText X" id="X">X</div>
+<div class="turnText O" id="O">o</div>
 
+
+
+</div>
 
 
 <div class="table-responsive">
 <table class="table align-middle" >
 <tr>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold " id="0"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="1"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="2"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold " id="0"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="1"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="2"></td>
 </tr>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="3"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold"id="4"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="5"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="3"></td>
+<td class="cell btn btn-secondary  btn-lg m-1 fs-1 fw-bold"id="4"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="5"></td>
 </tr>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold"id="6"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="7"></td>
-<td class="cell btn btn-danger btn-lg m-1 fs-1 fw-bold" id="8"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold"id="6"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="7"></td>
+<td class="cell btn btn-secondary btn-lg m-1 fs-1 fw-bold" id="8"></td>
 </tr>
 </table>
 </div>
 </div>
 <div class="endgame alert alert-success">
-<div class="text ">GG WP Click "Reset" to start over."    </div>
+    <div class="who"></div>
+<div class="text">GG WP Click "Reset" to start over."</div>
 
 <button class="button btn btn-danger  fs-1 fw-bold alert-heading" id="reset" onclick="startGame()">Reset</button>
 </div>
