@@ -174,7 +174,7 @@ for(let i=0;i<moves.length;i++){
     }
 }
 }else{
-    let bestScore=10000;
+    let bestScore=500;
     for(let i=0;i<moves.length;i++){
         if(moves[i].score<bestScore){
             bestScore=moves[i].score;
